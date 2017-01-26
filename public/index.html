@@ -1,0 +1,31 @@
+<!doctype html>
+<head>
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+  <header>
+    <h1>P-Score Calculator</h1>
+  </header>
+  <form action="/getPScore" method="post">
+    <h2>About the company:</h2>
+    <div class="form-group">
+      <label for="companyName">Company's Name</label>
+      <input type="text" class="form-control" id="companyName" name="companyName" placeholder="Bond Street">
+    </div>
+    <div class="form-group">
+      <label for="companyTwitter">Company's Twitter</label>
+      <input type="text" class="form-control" id="companyTwitter" name="companyTwitter" placeholder="https://twitter.com/onbondstreet">
+    </div>
+    <h2>About the owner:</h2>
+    <div class="form-group">
+      <label for="ownerName">Owner's Name</label>
+      <input type="text" class="form-control" id="ownerName" name="ownerName" placeholder="David Haber">
+    </div>
+    <div class="form-group">
+      <label for="ownerTwitter">Owner's Twitter</label>
+      <input type="text" class="form-control" id="ownerTwitter" name="ownerTwitter" placeholder="https://twitter.com/dhaber">
+    </div>
+    <input type="submit" class="btn btn-default"/>
+  </form>
+</body>

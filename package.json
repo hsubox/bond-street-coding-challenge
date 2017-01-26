@@ -1,0 +1,26 @@
+{
+  "name": "bond-street-coding-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "homepage": "",
+  "bugs": "",
+  "keywords": [],
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "jennhsu",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "dotenv": "^4.0.0",
+    "ejs": "^2.5.5",
+    "express": "^4.12.4",
+    "morgan": "^1.7.0",
+    "twitter": "^1.7.0"
+  }
+}
